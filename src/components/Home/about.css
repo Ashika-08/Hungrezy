@@ -1,0 +1,43 @@
+.abut-cnt{
+    background: linear-gradient(to right, #e4d5f5, #b9a0e6);
+  }
+  .abt-body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #C19AB5;
+  }
+  
+  .abt-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 24px;
+  }
+  
+  .abt-card.h1 {
+    color: #333;
+  }
+  
+  .abt-card.h3 {
+    color: #007bff;
+  }
+  
+  .abt-card.p {
+    color: #555;
+  }
+  .contact-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-list li {
+    margin-right: 10px; /* Adjust the spacing between the icon and text */
+  }
+  .home-icon {
+    margin-left: auto; /* This will push the home icon to the right end */
+  }
+  

@@ -1,0 +1,65 @@
+/* launch.css */
+
+.launch-body {
+  background: url('./lp.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  flex-direction: column; 
+}
+.launch-nav{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+position: absolute;
+}
+.launch-content{
+    color: #FFF0F6;
+    backdrop-filter: blur(10px);
+    margin-top: 200px;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.launch-work{
+    text-align: right;
+    font-size:large;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #FFF0F6;
+}
+.launch-content h1{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 3em;
+}
+.launch-main{
+  text-align: center;
+  margin-top: 20px;
+}
+.launch-button{
+  margin-top: 20px;
+  padding-top: 5px;
+  background-color: #564146;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+.launch-button:hover {
+  background-color: #3D1923;
+}
+

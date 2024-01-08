@@ -1,0 +1,131 @@
+/* .search-body {
+  
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    width: 85vw;
+  }
+  
+  .selectOption {
+    position: relative;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgb(21, 21, 21);
+    transition: max-height 0.3s ease;
+  }
+  
+  .selectOption.active {
+    max-height: 300px; 
+  }
+  
+  .inputcontent {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 2px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background: rgb(21, 21, 21);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .icon {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    font-size: 25px;
+    color: rgb(208, 208, 208);
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    transition: transform 0.2s ease;
+    pointer-events: none;
+  }
+  
+  .icon.active {
+    transform: translateY(-50%) rotate(0deg);
+  }
+  .options {
+    position: absolute;
+    width: 100%;
+    max-height: 0;
+    background: #101010;
+    border-radius: 10px;
+    top: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+    color: #c9c9c9;
+  }
+  
+  .options.active {
+    max-height: 220px; 
+    opacity: 1;
+    visibility: visible;
+  }
+  li{
+    list-style: none;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 17px 20px;
+    cursor: pointer;
+  }
+  li:hover{
+    background: #242424;
+  }
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background:#3b3b3b ;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #d9d9d9;
+    border-radius: 20px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: #8e8e8e;
+  } */
+
+  .search-container {
+    display: flex;
+
+    width: 85vw;
+    height: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:transparent;
+    border-radius: 5px;
+    cursor: text;
+   }
+   
+   .search-collapsed {
+    width: 0;
+    margin-left: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+   }
+   
+   .search-expanded {
+    width: 40%;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.3s, width 2s;
+   }
+   
+   input:focus {
+    border-color: #6c757d;
+   }

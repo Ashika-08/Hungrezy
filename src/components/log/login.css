@@ -1,0 +1,205 @@
+/* .login-container {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  /* background-image:url('https://i.pinimg.com/564x/39/32/6d/39326d5cc320857b5f31677952a20390.jpg'); */
+  /* background:linear-gradient(to right, #e4d5f5, #b9a0e6) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.logo {
+  width: 180px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.loginbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #b57edc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginbtn:hover {
+  background-color: #800080;
+  color: #fff;
+} */ 
+
+/* .login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #e4d5f5, #b9a0e6); 
+}
+
+.login-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff; 
+}
+
+.login-h1 {
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  margin-bottom: 8px;
+}
+
+.login-input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-button {
+  padding: 10px;
+  background-color:#b57edc; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; 
+.login-button:hover {
+  background-color: #800080;}
+
+.login-link {
+  text-align: center;
+  display: block;
+  margin-top: 16px;
+  color: #800080; 
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+.login-errmsg {
+  color: #ff0000;
+  text-align: center;
+  margin-top: 16px;
+}
+.login-error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px; 
+}
+.login-header{
+  text-align: center;
+  color: #800080;
+}
+ */
+ .login-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background: url('https://res.cloudinary.com/generative-ai-demos/image/upload//c_pad,w_1365,ar_4:3,b_gen_fill/f_auto/q_auto/v1/ugc/fill/etakoqs6jrviogugjr0p') center/cover no-repeat;  
+ }
+.login-card h1{
+  color:#5d2b2d;
+}
+.login-card {
+  color:#5d2b2d;
+  background: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  font-size: large;
+  position: relative;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo {
+  width: 80px;
+  height: 70px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  align-items: center;
+  transform: scale(1.5);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+}
+
+.loginbtn {
+  width: 100%;
+  padding: 10px;
+  background-color: #552d2f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loginbtn:hover {
+  background-color: #8c5e70;
+  color: #fff;
+} 
+.passbtn{
+  display: flex;
+  justify-content: flex-end;
+}
