@@ -11,6 +11,24 @@
       "price": "₹223",
       "qty": 2,
       "id": 2
+    },
+    {
+      "name": "Poori",
+      "price": "₹182",
+      "qty": 1,
+      "id": 3
+    },
+    {
+      "name": "Sambar",
+      "price": "₹150",
+      "qty": 1,
+      "id": 4
+    },
+    {
+      "name": "Coriander Rice",
+      "price": "₹190",
+      "qty": 1,
+      "id": 5
     }
   ]
 }
