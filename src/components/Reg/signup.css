@@ -157,7 +157,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url('https://res.cloudinary.com/generative-ai-demos/image/upload//c_pad,w_1365,ar_4:3,b_gen_fill/f_auto/q_auto/v1/ugc/fill/etakoqs6jrviogugjr0p') center/cover no-repeat;
+  background: url('./bkimg.jpeg') center/cover no-repeat;
   
 }
 

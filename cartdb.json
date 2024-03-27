@@ -9,13 +9,13 @@
     {
       "name": "Karupatti Mysore Pak",
       "price": "₹223",
-      "qty": 2,
+      "qty": 1,
       "id": 2
     },
     {
       "name": "Poori",
       "price": "₹182",
-      "qty": 1,
+      "qty": 20,
       "id": 3
     },
     {
@@ -29,6 +29,36 @@
       "price": "₹190",
       "qty": 1,
       "id": 5
+    },
+    {
+      "name": "Wrap",
+      "price": "₹199",
+      "qty": 1,
+      "id": 6
+    },
+    {
+      "name": "Honey Nut Crunch",
+      "price": "₹179",
+      "qty": 1,
+      "id": 7
+    },
+    {
+      "name": "Paniyaram",
+      "price": "₹199",
+      "qty": 1,
+      "id": 8
+    },
+    {
+      "name": "Smoothie",
+      "price": "₹150",
+      "qty": 1,
+      "id": 9
+    },
+    {
+      "name": "Appam",
+      "price": "₹399",
+      "qty": 1,
+      "id": 10
     }
   ]
 }
